@@ -14,6 +14,8 @@
 		3FE0A7E91C19BAC8006C1C35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0A7E81C19BAC8006C1C35 /* Images.xcassets */; };
 		3FE0A7EC1C19BAC8006C1C35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0A7EA1C19BAC8006C1C35 /* LaunchScreen.xib */; };
 		3FE0A7F81C19BAC8006C1C35 /* NewsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0A7F71C19BAC8006C1C35 /* NewsAppTests.m */; };
+		3FE0A8031C19BB34006C1C35 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0A8021C19BB34006C1C35 /* InfoTableViewCell.m */; };
+		3FE0A8061C19D412006C1C35 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0A8051C19D412006C1C35 /* News.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3FE0A7F11C19BAC8006C1C35 /* NewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE0A7F61C19BAC8006C1C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE0A7F71C19BAC8006C1C35 /* NewsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsAppTests.m; sourceTree = "<group>"; };
+		3FE0A8011C19BB34006C1C35 /* InfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
+		3FE0A8021C19BB34006C1C35 /* InfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
+		3FE0A8041C19D412006C1C35 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		3FE0A8051C19D412006C1C35 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				3FE0A7E01C19BAC8006C1C35 /* AppDelegate.m */,
 				3FE0A7E21C19BAC8006C1C35 /* ViewController.h */,
 				3FE0A7E31C19BAC8006C1C35 /* ViewController.m */,
+				3FE0A8011C19BB34006C1C35 /* InfoTableViewCell.h */,
+				3FE0A8021C19BB34006C1C35 /* InfoTableViewCell.m */,
+				3FE0A8041C19D412006C1C35 /* News.h */,
+				3FE0A8051C19D412006C1C35 /* News.m */,
 				3FE0A7E51C19BAC8006C1C35 /* Main.storyboard */,
 				3FE0A7E81C19BAC8006C1C35 /* Images.xcassets */,
 				3FE0A7EA1C19BAC8006C1C35 /* LaunchScreen.xib */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE0A8061C19D412006C1C35 /* News.m in Sources */,
 				3FE0A7E41C19BAC8006C1C35 /* ViewController.m in Sources */,
+				3FE0A8031C19BB34006C1C35 /* InfoTableViewCell.m in Sources */,
 				3FE0A7E11C19BAC8006C1C35 /* AppDelegate.m in Sources */,
 				3FE0A7DE1C19BAC8006C1C35 /* main.m in Sources */,
 			);
@@ -346,6 +358,7 @@
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +369,7 @@
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
